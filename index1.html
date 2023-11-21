@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <input type="text" class="display" id="result">
+
+        <div class="buttons">
+            <button onclick="displayData('(')">(</button>
+            <button onclick="displayData(')')">)</button>
+            <button onclick="removeLast()"><i class="fa-solid fa-delete-left"></i></button>
+            <button onclick="displayData('/')"><i class="fa-solid fa-divide"></i></button>
+
+            <button onclick="displayData('7')">7</button>
+            <button onclick="displayData('8')">8</button>
+            <button onclick="displayData('9')">9</button>
+            <button onclick="displayData('*')"><i class="fa-solid fa-xmark"></i></button>
+
+            <button onclick="displayData('4')">4</button>
+            <button onclick="displayData('5')">5</button>
+            <button onclick="displayData('6')">6</button>
+            <button onclick="displayData('-')"><i class="fa-solid fa-minus"></i></button>
+
+            <button onclick="displayData('1')">1</button>
+            <button onclick="displayData('2')">2</button>
+            <button onclick="displayData('3')">3</button>
+            <button onclick="displayData('+')"><i class="fa-solid fa-plus"></i></button>
+
+            <button onclick="displayData('0')">0</button>
+            <button onclick="displayData('.')">.</button>
+            <button onclick="calculatorClear()"><b>AC</b></button>
+            <button onclick="calculateResult()"><i class="fa-solid fa-equals"></i></button>
+        </div>
+    </div>
+</body>
+<script src="./main.js"></script>
+</html>
